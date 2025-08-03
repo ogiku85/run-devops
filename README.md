@@ -3,8 +3,8 @@ Deploying .Net Microservices into Kubernetes, and moving deployments to the clou
 
 | Image | Status |
 | ------------- | ------------- |
-| Shopping Client |  [![Build Status](https://dev.azure.com/ezozkme/shopping/_apis/build/status/shoppingclient-pipeline?branchName=main)](https://dev.azure.com/ezozkme/shopping/_build/latest?definitionId=14&branchName=main) |
-| Shopping API | [![Build Status](https://dev.azure.com/ezozkme/shopping/_apis/build/status/shoppingapi-pipeline?branchName=main)](https://dev.azure.com/ezozkme/shopping/_build/latest?definitionId=13&branchName=main) | | |
+| Shopping Client |  [![Build Status](https://dev.azure.com/oogiku/shopping/_apis/build/status%2Fshoppingclient-pipeline?branchName=main)](https://dev.azure.com/oogiku/shopping/_build/latest?definitionId=5&branchName=main) |
+| Shopping API | [![Build Status](https://dev.azure.com/oogiku/shopping/_apis/build/status%2Fshoppingapi-pipeline?branchName=main)](https://dev.azure.com/oogiku/shopping/_build/latest?definitionId=4&branchName=main) | | |
 
 
 **UDEMY COURSE WITH DISCOUNTED - Step by Step Development of this repository -> https://www.udemy.com/course/deploying-net-microservices-with-k8s-aks-and-azure-devops/?couponCode=APRI25**
