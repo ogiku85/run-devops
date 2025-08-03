@@ -48,20 +48,20 @@ Tag a container image
 
 get the login server address
 az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
-shoppingacr.azurecr.io
+shoppingrainacr.azurecr.io
 --
 Tag your images
 
-docker tag shoppingapi:latest shoppingacr.azurecr.io/shoppingapi:v1
-docker tag shoppingclient:latest shoppingacr.azurecr.io/shoppingclient:v1
+docker tag shoppingapi:latest shoppingrainacr.azurecr.io/shoppingapi:v1
+docker tag shoppingclient:latest shoppingrainacr.azurecr.io/shoppingclient:v1
 
 Check
 docker images
 --
 Push images to registry
 
-docker push shoppingacr.azurecr.io/shoppingapi:v1
-docker push shoppingacr.azurecr.io/shoppingclient:v1
+docker push shoppingrainacr.azurecr.io/shoppingapi:v1
+docker push shoppingrainacr.azurecr.io/shoppingclient:v1
 --
 List images in registry
 az acr repository list --name shoppingacr --output table
